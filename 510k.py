@@ -23,3 +23,4 @@ def calc_confidence(num: int, denom: int, alpha: int = 0.05, combined: bool = Tr
         return f'"{proportion}\n{percent}\n{CI}"'
     else:
         return proportion, percent, CI
+
